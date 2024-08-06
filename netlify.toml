@@ -1,0 +1,9 @@
+[build]
+  # Directory to deploy
+  publish = "build"
+  # Command to build your project
+  command = "npm run build"
+  
+[build.environment]
+  # Specify the Node.js version
+  NODE_VERSION = "16.0.0"
