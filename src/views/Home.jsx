@@ -69,21 +69,28 @@ const Home = () => {
               <a
   href="https://drive.google.com/file/d/1UayLAnTkwrwM3H8KktMMGyhL-hP0EJT_/view?usp=sharing"
   target="_blank"
+  rel="noopener noreferrer"
   style={{
-    display: "inline-block",
-    backgroundColor: "#007bff",
-    color: "white",
-    padding: "12px 24px",
-    fontSize: "16px",
-    fontWeight: "bold",
-    textDecoration: "none",
-    borderRadius: "8px",
-    transition: "all 0.3s ease",
-    cursor: "pointer",
+    color: "blue", // Set text color to blue
+    textDecoration: "none", // Remove underline
+    border: "2px solid blue", // Add a blue border
+    padding: "10px 20px", // Add padding
+    borderRadius: "5px", // Rounded corners
+    transition: "background-color 0.3s ease", // Smooth transition for background
+    display: "inline-block", // Ensures the padding and border apply correctly
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.backgroundColor = "blue"; // Blue background on hover
+    e.target.style.color = "white"; // White text on hover
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.backgroundColor = "transparent"; // Reset background on leave
+    e.target.style.color = "blue"; // Reset text color on leave
   }}
 >
   Resume
 </a>
+
 
               </div>
             </div>
