@@ -67,7 +67,7 @@ const Home = () => {
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
               <a
-  href="https://drive.google.com/file/d/1_mOHb1RGvWNpDeQJ4Oct7z7sDnYGxwe3/view?usp=drive_link"
+  href="https://drive.google.com/file/d/1H406-q5DczlDRW7LEkq8cn8_XjMzthuK/view?usp=drive_link"
   target="_blank"
   rel="noopener noreferrer"
   style={{
