@@ -51,7 +51,7 @@ const Home = () => {
               }
             >
               I am a Software Developer and currently working at
-              Staples as a Technology Representative.
+              IntouchCX as a Support Specialist.  
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
